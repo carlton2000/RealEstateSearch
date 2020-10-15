@@ -145,8 +145,7 @@ font-weight: bold;
 /* Center */
 .center {
   margin: auto;
-  width: 60%;
-  
+  width: 60%;  
   padding: 15px;
   text-align: center;
   background-color: #111;
@@ -183,7 +182,7 @@ select{
 /* Property Card image */
 .propertyCard img{
   height: 170px;
-  width: 295px;
+  width: 100%;
   
   /* margin-left: 15%; */
 }
@@ -194,6 +193,7 @@ select{
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
+  padding: 0;
   } 
 
 #PropertyDiv{
@@ -236,9 +236,10 @@ select{
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
   background-color: #f9f9f9;
-  
+}
+.padding{
+  padding: 16px;
 }
 /* Slides */
 /* .mySlides {

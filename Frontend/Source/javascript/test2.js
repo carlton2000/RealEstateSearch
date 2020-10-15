@@ -27,10 +27,10 @@ const lists = {
       { id: 112, province: 'Kwa-Zulu Natal',   propertyT: 'Penthouse', price:'R32 800', rooms: '8 Rooms', bathrooms : '6 bathrooms', img : '../../Public/images/KZN-p2.jpg' },
       { id: 113, province: 'Western Cape',   propertyT: 'Apartment', price:'R12 350', rooms: '3 Rooms', bathrooms : '2 bathrooms', img : '../../Public/images/CapeTown-a2.jpg' },
       { id: 114, province: 'Kwa-Zulu Natal',    propertyT: 'Cottage', price:'R13 500', rooms: '4 Rooms', bathrooms : '2 bathrooms', img : '../../Public/images/KZN-c2.jpg' },
-      { id: 115, province: 'Johannesburg',   propertyT: 'Penthouse', price:'R55 700', rooms: '9 Rooms', bathrooms : '6 bathrooms', img : '../../Public/images/JHB-p2.jpg'},
+      { id: 115, province: 'Johannesburg',   propertyT: 'Penthouse', price:'R55 700', rooms: '9 Rooms', bathrooms : '3 bathrooms', img : '../../Public/images/JHB-p2.jpg'},
       { id: 116, province: 'Kwa-Zulu Natal',   propertyT: 'Apartment', price:'R25 000', rooms: '3 Rooms', bathrooms : '3 bathrooms', img : '../../Public/images/KZN-a2.jpg' },
       { id: 117, province: 'Johannesburg',    propertyT: 'Cottage', price:'R15 000', rooms: '4 Rooms', bathrooms : '2 bathrooms', img : '../../Public/images/JHB-c2.jpg'},
-      { id: 118, province: 'Western Cape',   propertyT: 'Penthouse', price:'R45 000', rooms: '8 Rooms', bathrooms : '6 bathrooms', img : '../../Public/images/CapeTown-p2.jpg'},
+      { id: 118, province: 'Western Cape',   propertyT: 'Penthouse', price:'R45 000', rooms: '8 Rooms', bathrooms : '4 bathrooms', img : '../../Public/images/CapeTown-p2.jpg'},
       
   ];
 
@@ -70,11 +70,13 @@ for ( let i=0; i<output.length; i++){
                         <div class="column">  
                         <div class="card"> 
                         <img src='${output[i].img}'/>
+                        <div class="padding">
                         <h2>${output[i].province}</h2>                                             
                         <h4>${output[i].propertyT}</h4>
                         <h4>${output[i].price}</h4>
                         <h6><i class="fa fa-bed" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;Rooms: ${output[i].rooms}</h6>
                         <h6><i class="fa fa-bath" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;Bathrooms: ${output[i].bathrooms}</h6>
+                        </div>
                         </div>
                         </div>
                         </div>
