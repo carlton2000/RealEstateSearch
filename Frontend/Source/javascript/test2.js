@@ -74,8 +74,8 @@ for ( let i=0; i<output.length; i++){
                         <h2>${output[i].province}</h2>                                             
                         <h4>${output[i].propertyT}</h4>
                         <h4>${output[i].price}</h4>
-                        <h6><i class="fa fa-bed" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;Rooms: ${output[i].rooms}</h6>
-                        <h6><i class="fa fa-bath" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;Bathrooms: ${output[i].bathrooms}</h6>
+                        <h6><i class="fa fa-bed" aria-hidden="true" style="font-size:19px;"></i>&nbsp;&nbsp;Rooms: ${output[i].rooms}</h6>
+                        <h6><i class="fa fa-bath" aria-hidden="true" style="font-size:19px;"></i>&nbsp;&nbsp;Bathrooms: ${output[i].bathrooms}</h6>
                         </div>
                         </div>
                         </div>
