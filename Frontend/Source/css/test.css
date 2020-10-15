@@ -236,6 +236,7 @@ select{
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 5px solid #111;
   background-color: #f9f9f9;
 }
 .padding{
